@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+      }
+      .animate-on-scroll.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+    <title>Toyota Kagaku Recruitment</title>
+    <link rel="icon" href="/public/asset/logo.svg" type="image/svg+xml" />
+  </head>
+  <body class="bg-[#005794]">
+    <div
+      class="container w-full sm:max-w-[400px] flex flex-col gap-8 bg-white md:max-w-[500px] md:mx-auto lg:max-w-[550px] lg:mx-auto scroll-smooth">
+      <!-- Header -->
+      <div class="flex flex-col items-center justify-center">
+        <img
+          loading="eager"
+          class="w-full sm:max-w-[350px] max-w-[300px] md:w-[80%] lg:w-[90%] bg-white py-2"
+          src="./public/asset/header/navbar.svg"
+          alt="navbar-image" />
+
+        <div class="flex w-full bg-[#005794] pb-6">
+          <img
+            loading="eager"
+            class="w-full"
+            src="./public/asset/header/hero.svg"
+            alt="hero-image" />
+        </div>
+      </div>
+
+      <!-- introduction -->
+      <div class="flex flex-col gap-4 items-center justify-center gap-8">
+        <img
+          loading="eager"
+          class="w-full max-w-[90%] animate-on-scroll"
+          src="./public/asset/introduction/question.svg"
+          alt="question-image" />
+
+        <div
+          class="flex items-center justify-center w-full bg-[#005794] py-8 animate-on-scroll">
+          <img
+            loading="eager"
+            class="w-[90%]"
+            src="./public/asset/introduction/invitation.svg"
+            alt="invitation" />
+        </div>
+
+        <img
+          loading="eager"
+          class="w-full max-w-[75%] animate-on-scroll"
+          src="./public/asset/introduction/card.svg"
+          alt="card-image" />
+
+        <a
+          class="w-full transition-transform duration-300 hover:scale-105 flex justify-center sm:mt-2 animate-on-scroll"
+          target="_blank"
+          href="https://line.me/ti/p/%40974ssyie">
+          <img
+            loading="eager"
+            src="./public/asset/button.svg"
+            alt="line-image"
+            class="w-full max-w-[60%]" />
+        </a>
+
+        <div
+          class="flex items-center justify-center w-full bg-[#005794] py-8 animate-on-scroll">
+          <img
+            loading="eager"
+            class="w-[90%]"
+            src="./public/asset/introduction/history.svg"
+            alt="history" />
+        </div>
+      </div>
+
+      <!-- Value -->
+      <div class="flex flex-col gap-8 items-center justify-center">
+        <img
+          loading="eager"
+          class="w-full max-w-[90%] animate-on-scroll"
+          src="./public/asset/value/header.svg"
+          alt="header-image" />
+        <div
+          class="card-1 flex flex-col gap-4 items-center justify-center animate-on-scroll">
+          <img
+            loading="eager"
+            class="w-full max-w-[70%]"
+            src="./public/asset/value/image-01.png"
+            alt="image-01" />
+          <img
+            loading="eager"
+            class="w-full max-w-[82%]"
+            src="./public/asset/value/explanation-01.svg"
+            alt="explanation-01" />
+        </div>
+        <div
+          class="card-1 flex flex-col gap-4 items-center justify-center animate-on-scroll">
+          <img
+            loading="eager"
+            class="w-full max-w-[70%]"
+            src="./public/asset/value/image-02.png"
+            alt="image-02" />
+          <img
+            loading="eager"
+            class="w-full max-w-[92%]"
+            src="./public/asset/value/explanation-02.svg"
+            alt="explanation-02" />
+        </div>
+        <div
+          class="card-1 flex flex-col gap-4 items-center justify-center animate-on-scroll">
+          <img
+            loading="eager"
+            class="w-full max-w-[70%]"
+            src="./public/asset/value/image-03.png"
+            alt="image-03" />
+          <img
+            loading="eager"
+            class="w-full max-w-[72%]"
+            src="./public/asset/value/explanation-03.svg"
+            alt="explanation-03" />
+        </div>
+
+        <img
+          loading="eager"
+          class="w-full max-w-[80%] animate-on-scroll"
+          src="./public/asset/value/header-2.svg"
+          alt="header2-image" />
+
+        <div
+          class="w-full flex items-center justify-center bg-center h-[200px] animate-on-scroll"
+          style="
+            background-image: url('./public/asset/value/background-image.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+          ">
+          <img
+            loading="eager"
+            class="w-full max-w-[70%] flex items-center justify-center"
+            src="./public/asset/value/card.svg"
+            alt="card-image" />
+        </div>
+
+        <img
+          loading="eager"
+          class="w-full max-w-[80%] animate-on-scroll"
+          src="./public/asset/value/footer.svg"
+          alt="footer" />
+      </div>
+
+      <!-- Testimony -->
+      <div
+        class="flex flex-col items-center justify-center w-full bg-[#005794] py-8 gap-8">
+        <img
+          loading="eager"
+          class="w-[90%] animate-on-scroll"
+          src="./public/asset/testimony/testimony.svg"
+          alt="testimony-image" />
+
+        <a
+          class="w-full transition-transform duration-300 hover:scale-105 flex justify-center sm:mt-2 animate-on-scroll"
+          target="_blank"
+          href="https://line.me/ti/p/%40974ssyie">
+          <img
+            loading="eager"
+            src="./public/asset/button.svg"
+            alt="line-image"
+            class="w-full max-w-[60%]" />
+        </a>
+      </div>
+
+      <!-- Sachou Message -->
+      <div class="flex flex-col w-full gap-6">
+        <img
+          loading="eager"
+          class="w-full max-w-[70%] px-4 animate-on-scroll"
+          src="./public/asset/message/header.svg"
+          alt="header-image" />
+        <div class="flex flex-col gap-10 items-center justify-center">
+          <img
+            loading="eager"
+            class="w-full max-w-[50%] animate-on-scroll"
+            src="./public/asset/message/sachou-image.png"
+            alt="sachou-image" />
+        </div>
+        <img
+          loading="eager"
+          class="w-full px-4 animate-on-scroll"
+          src="./public/asset/message/sachou-message.svg"
+          alt="sachou-message" />
+      </div>
+
+      <!-- Recruitment -->
+      <div
+        class="flex flex-col items-center justify-center w-full gap-8 bg-[#005794] py-8">
+        <img
+          loading="eager"
+          class="w-[90%] animate-on-scroll"
+          src="./public/asset/recruitment/question.svg"
+          alt="question-image" />
+
+        <a
+          class="w-full transition-transform duration-300 hover:scale-105 flex justify-center sm:mt-2 animate-on-scroll"
+          target="_blank"
+          href="https://line.me/ti/p/%40974ssyie">
+          <img
+            loading="eager"
+            src="./public/asset/button.svg"
+            alt="line-image"
+            class="w-full max-w-[60%]" />
+        </a>
+
+        <img
+          loading="eager"
+          class="w-[90%] animate-on-scroll"
+          src="./public/asset/recruitment/invitation.svg"
+          alt="invitation-image" />
+
+        <a
+          class="w-full transition-transform duration-300 hover:scale-105 flex justify-center sm:mt-2 animate-on-scroll"
+          target="_blank"
+          href="https://line.me/ti/p/%40974ssyie">
+          <img
+            loading="eager"
+            src="./public/asset/button.svg"
+            alt="line-image"
+            class="w-full max-w-[60%]" />
+        </a>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const observerOptions = {
+          root: null,
+          rootMargin: "0px",
+          threshold: 0.1,
+        };
+
+        const observerCallback = (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        };
+
+        const observer = new IntersectionObserver(
+          observerCallback,
+          observerOptions
+        );
+
+        const elementsToAnimate =
+          document.querySelectorAll(".animate-on-scroll");
+
+        elementsToAnimate.forEach((element) => {
+          observer.observe(element);
+        });
+      });
+    </script>
+  </body>
+</html>
